@@ -9,7 +9,7 @@
   "scripts": {
     "compile": "babel -d lib/ src/",
     "prepublish": "npm run compile",
-    "preinstall": "npm run prepublish"
+    "preinstall": "npm i && npm run compile"
   },
   "repository": {
     "type": "git",
